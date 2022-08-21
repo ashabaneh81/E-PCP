@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 Andrew Comminos
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pal.gov.moi.pcp"
+    android:installLocation="auto"
+    android:targetSandboxVersion="2"
+    android:versionCode="93"
+    android:versionName="3.5.8.PCP" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" /> <!-- Needed for ConnectivityManager, at least -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.Mumla" >
+        <provider
+            android:name="se.lublin.mumla.channel.ChannelSearchProvider"
+            android:authorities="se.lublin.mumla.channel.ChannelSearchProvider"
+            android:exported="false" />
+
+        <receiver android:name="se.lublin.mumla.app.MumlaWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mumla_widget_info" />
+        </receiver>
+
+        <activity android:name="se.lublin.mumla.app.MumlaWidgetConfigureActivity" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="se.lublin.mumla.app.UnlockScreenService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="se.lublin.mumla.app.UnlockScreenIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name="se.lublin.mumla.app.UnlockScreenReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="se.lublin.mumla.wizard.WizardActivity" />
+        <activity
+            android:name="se.lublin.mumla.preference.Preferences"
+            android:parentActivityName="se.lublin.mumla.app.MumlaActivity" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.PREFS_GENERAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.PREFS_AUTHENTICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.PREFS_AUDIO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.PREFS_APPEARANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.PREFS_ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="se.lublin.mumla.service.MumlaService"
+            android:enabled="true" />
+
+        <activity
+            android:name="se.lublin.mumla.app.MumlaActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:showOnLockScreen="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="mumble" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.lublin.mumla.preference.CertificateSelectActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.CERTIFICATE_SELECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.lublin.mumla.preference.CertificateImportActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.CERTIFICATE_IMPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.lublin.mumla.preference.CertificateExportActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.CERTIFICATE_EXPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.lublin.mumla.preference.CertificateGenerateActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.CERTIFICATE_GENERATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.lublin.mumla.preference.ServerCertificateClearActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="se.lublin.mumla.app.CLEAR_SERVER_CERTIFICATES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="se.lublin.humla.HumlaService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="se.lublin.humla.ACTION_CONNECT" />
+                <action android:name="se.lublin.humla.ACTION_DISCONNECT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

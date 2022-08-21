@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\android_projects\\mumla\\app\\build\\intermediates\\incremental\\mergeOfficialReleaseResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\android_projects\\mumla\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "899",
+                        "endColumns": "58",
+                        "endOffsets": "953"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

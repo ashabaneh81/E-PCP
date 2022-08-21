@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":93,"versionName":"3.5.8.PCP","enabled":true,"outputFile":"EPCP3.5.8.PCP-official-release.apk","fullName":"officialRelease","baseName":"official-release"},"path":"AndroidManifest.xml","properties":{"packageId":"pal.gov.moi.pcp","split":"","minSdkVersion":"14"}}]

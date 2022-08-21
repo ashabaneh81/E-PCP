@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":93,"versionName":"3.5.8.PCP-debug","enabled":true,"outputFile":"EPCP3.5.8.PCP-official-debug.apk","fullName":"officialDebug","baseName":"official-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"pal.gov.moi.pcp","split":"","minSdkVersion":"14"}}]

@@ -1,0 +1,432 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+MERGED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\22f7c107a92ba2ce61478cd7484e573e\AndroidManifest.xml:17:1-22:12
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:18:1-42:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d6d28f0e09d3fd62f22a35eeb856689\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f21be4c19cd5a310f1c4c0b0500146e4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f31984de17ab69f87ecfafe0a7cb5cbb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\74077e52985d2b3d166f01c667f11f55\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\458fa58143ed55c69a3127c9d829c9ff\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\a4615dd565f5fa9e5aa89b143b059623\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78095fe4b52553312f01c6ded419b142\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4da796561a93d274139b98a94ceee836\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\62e67f57f9ee2c087e638a19899abdd9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\6565300403e7acfbbb128fe904034f9e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f1f596233a3c9fb74a3fc558fffe047f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\81e37b04c660db1b87ce7e6d294e3cea\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\69735a15b9d0f31ff0c886f4fade9992\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\2c15ad8db1c5bacb0a0982de071bb87b\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\3c07476bf412ff7728ab388703544383\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d80e1446ec4aafc8f926a0460201c08\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78eb5d0a625fc79e468669e236084532\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4a3c8b8db10e74d61776885da0c6db2c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\28553558fce67e0e896e6993961b4d2a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\21ca07d6932963746c4e1a4f46b4536d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\14273c0bb049ef970961236e1344ba3e\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:20:1-29:12
+INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:20:1-29:12
+INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:20:1-29:12
+	package
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+		INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:1-171:12
+		INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:4:5-35
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.microphone
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:7:9-51
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:10:22-74
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-67
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:15:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:16:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:19:22-72
+application
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:21:5-169:19
+MERGED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:21:5-169:19
+MERGED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:21:5-169:19
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-40:19
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-40:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\2c15ad8db1c5bacb0a0982de071bb87b\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\2c15ad8db1c5bacb0a0982de071bb87b\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:26:9-52
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:26:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:25:9-41
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:25:9-41
+	android:icon
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:24:9-43
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:27:9-43
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:27:9-43
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:22:9-61
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:22:9-61
+receiver#se.lublin.mumla.app.MumlaWidget
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:28:19-50
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:29:13-31:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:30:17-84
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:30:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:33:13-35:61
+	android:resource
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:35:17-58
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:34:17-58
+activity#se.lublin.mumla.app.MumlaWidgetConfigureActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:38:9-42:20
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:38:19-67
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:39:13-41:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:40:17-87
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:40:25-84
+service#se.lublin.mumla.app.UnlockScreenService
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:44:9-47:39
+	android:enabled
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:45:13-52
+service#se.lublin.mumla.app.UnlockScreenIntentService
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:49:13-58
+receiver#se.lublin.mumla.app.UnlockScreenReceiver
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:enabled
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:54:13-35
+	android:exported
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:55:13-36
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:53:13-53
+intent-filter#action:name:android.intent.action.ACTION_SCREEN_ON+action:name:android.intent.action.USER_PRESENT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:56:13-59:29
+action#android.intent.action.USER_PRESENT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:57:25-74
+action#android.intent.action.ACTION_SCREEN_ON
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:58:17-81
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:58:25-78
+activity#se.lublin.mumla.wizard.WizardActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:62:9-59
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:62:19-56
+activity#se.lublin.mumla.preference.Preferences
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:63:9-91:20
+	android:parentActivityName
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:65:13-60
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:64:13-51
+intent-filter#action:name:se.lublin.mumla.app.PREFS_GENERAL+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:66:13-70:29
+action#se.lublin.mumla.app.PREFS_GENERAL
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:67:17-76
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:67:25-73
+category#android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:69:27-73
+intent-filter#action:name:se.lublin.mumla.app.PREFS_AUTHENTICATION+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:71:13-75:29
+action#se.lublin.mumla.app.PREFS_AUTHENTICATION
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:72:17-83
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:72:25-80
+intent-filter#action:name:se.lublin.mumla.app.PREFS_AUDIO+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:76:13-80:29
+action#se.lublin.mumla.app.PREFS_AUDIO
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:77:17-74
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:77:25-71
+intent-filter#action:name:se.lublin.mumla.app.PREFS_APPEARANCE+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:81:13-85:29
+action#se.lublin.mumla.app.PREFS_APPEARANCE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:82:25-76
+intent-filter#action:name:se.lublin.mumla.app.PREFS_ABOUT+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:86:13-90:29
+action#se.lublin.mumla.app.PREFS_ABOUT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:87:17-74
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:87:25-71
+service#se.lublin.mumla.service.MumlaService
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:93:9-95:38
+	android:enabled
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:95:13-35
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:94:13-49
+activity#se.lublin.mumla.app.MumlaActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:97:9-123:20
+	android:label
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:99:13-45
+	android:launchMode
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:100:13-43
+	android:showOnLockScreen
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:101:13-44
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:98:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:102:13-106:29
+action#android.intent.action.MAIN
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:103:17-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:103:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:105:17-77
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:105:27-74
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:107:13-109:29
+action#android.intent.action.SEARCH
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:108:17-71
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:108:25-68
+meta-data#android.app.searchable
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:111:13-113:54
+	android:resource
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:113:17-51
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:112:17-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mumble
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:115:13-122:29
+action#android.intent.action.VIEW
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:116:17-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:116:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:119:17-78
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:119:27-75
+data
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:121:17-49
+	android:scheme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:121:23-46
+activity#se.lublin.mumla.preference.CertificateSelectActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:124:9-132:20
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:126:13-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:125:13-65
+intent-filter#action:name:se.lublin.mumla.app.CERTIFICATE_SELECT+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:127:13-131:29
+action#se.lublin.mumla.app.CERTIFICATE_SELECT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:128:17-81
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:128:25-78
+activity#se.lublin.mumla.preference.CertificateImportActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:133:9-141:20
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:135:13-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:134:13-65
+intent-filter#action:name:se.lublin.mumla.app.CERTIFICATE_IMPORT+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:136:13-140:29
+action#se.lublin.mumla.app.CERTIFICATE_IMPORT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:137:17-81
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:137:25-78
+activity#se.lublin.mumla.preference.CertificateExportActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:142:9-150:20
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:144:13-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:143:13-65
+intent-filter#action:name:se.lublin.mumla.app.CERTIFICATE_EXPORT+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:145:13-149:29
+action#se.lublin.mumla.app.CERTIFICATE_EXPORT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:146:17-81
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:146:25-78
+activity#se.lublin.mumla.preference.CertificateGenerateActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:151:9-159:20
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:153:13-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:152:13-67
+intent-filter#action:name:se.lublin.mumla.app.CERTIFICATE_GENERATE+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:154:13-158:29
+action#se.lublin.mumla.app.CERTIFICATE_GENERATE
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:155:17-83
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:155:25-80
+activity#se.lublin.mumla.preference.ServerCertificateClearActivity
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:160:9-168:20
+	android:theme
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:162:13-69
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:161:13-70
+intent-filter#action:name:se.lublin.mumla.app.CLEAR_SERVER_CERTIFICATES+category:name:android.intent.category.DEFAULT
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:163:13-167:29
+action#se.lublin.mumla.app.CLEAR_SERVER_CERTIFICATES
+ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:164:17-88
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml:164:25-85
+uses-sdk
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\22f7c107a92ba2ce61478cd7484e573e\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\22f7c107a92ba2ce61478cd7484e573e\AndroidManifest.xml:20:5-43
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:41
+MERGED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d6d28f0e09d3fd62f22a35eeb856689\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d6d28f0e09d3fd62f22a35eeb856689\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f21be4c19cd5a310f1c4c0b0500146e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f21be4c19cd5a310f1c4c0b0500146e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f31984de17ab69f87ecfafe0a7cb5cbb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f31984de17ab69f87ecfafe0a7cb5cbb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\74077e52985d2b3d166f01c667f11f55\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\74077e52985d2b3d166f01c667f11f55\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\458fa58143ed55c69a3127c9d829c9ff\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\458fa58143ed55c69a3127c9d829c9ff\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\a4615dd565f5fa9e5aa89b143b059623\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\a4615dd565f5fa9e5aa89b143b059623\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78095fe4b52553312f01c6ded419b142\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78095fe4b52553312f01c6ded419b142\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4da796561a93d274139b98a94ceee836\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4da796561a93d274139b98a94ceee836\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\62e67f57f9ee2c087e638a19899abdd9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\62e67f57f9ee2c087e638a19899abdd9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\6565300403e7acfbbb128fe904034f9e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\6565300403e7acfbbb128fe904034f9e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f1f596233a3c9fb74a3fc558fffe047f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\f1f596233a3c9fb74a3fc558fffe047f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\81e37b04c660db1b87ce7e6d294e3cea\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\81e37b04c660db1b87ce7e6d294e3cea\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\26913a2d27a2f596adf06fe7b98e65cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\69735a15b9d0f31ff0c886f4fade9992\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\69735a15b9d0f31ff0c886f4fade9992\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\2c15ad8db1c5bacb0a0982de071bb87b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\2c15ad8db1c5bacb0a0982de071bb87b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\3c07476bf412ff7728ab388703544383\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\3c07476bf412ff7728ab388703544383\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d80e1446ec4aafc8f926a0460201c08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4d80e1446ec4aafc8f926a0460201c08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78eb5d0a625fc79e468669e236084532\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\78eb5d0a625fc79e468669e236084532\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4a3c8b8db10e74d61776885da0c6db2c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\4a3c8b8db10e74d61776885da0c6db2c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\28553558fce67e0e896e6993961b4d2a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\28553558fce67e0e896e6993961b4d2a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\21ca07d6932963746c4e1a4f46b4536d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\21ca07d6932963746c4e1a4f46b4536d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\14273c0bb049ef970961236e1344ba3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\alas\.gradle\caches\transforms-2\files-2.1\14273c0bb049ef970961236e1344ba3e\AndroidManifest.xml:20:5-44
+INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\android_projects\mumla\app\src\main\AndroidManifest.xml
+		INJECTED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml
+provider#se.lublin.mumla.channel.ChannelSearchProvider
+ADDED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:23:9-26:40
+	android:authorities
+		ADDED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:25:13-80
+	android:exported
+		ADDED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\android_projects\mumla\app\src\official\AndroidManifest.xml:24:13-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:29:22-76
+service#se.lublin.humla.HumlaService
+ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-56
+intent-filter#action:name:se.lublin.humla.ACTION_CONNECT+action:name:se.lublin.humla.ACTION_DISCONNECT
+ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-38:29
+action#se.lublin.humla.ACTION_CONNECT
+ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:36:17-73
+	android:name
+		ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:36:25-70
+action#se.lublin.humla.ACTION_DISCONNECT
+ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from [:libraries:humla] C:\android_projects\mumla\libraries\humla\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-73

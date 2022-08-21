@@ -1,0 +1,4 @@
+# Referenced at C:\android_projects\mumla\app\build\intermediates\merged_manifests\officialDebug\AndroidManifest.xml:44
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\android_projects\mumla\app\build\intermediates\merged_manifests\officialDebug\AndroidManifest.xml:44
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

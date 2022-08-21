@@ -1,0 +1,7 @@
+#Wed Aug 17 10:34:31 IDT 2022
+base.0=C\:\\android_projects\\mumla\\app\\build\\intermediates\\transforms\\dexMerger\\official\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\android_projects\\mumla\\app\\build\\intermediates\\transforms\\dexMerger\\official\\debug\\10

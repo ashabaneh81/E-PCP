@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pal.gov.moi.pcp"
+      android:versionCode="93"
+      android:versionName="3.5.8.PCP-debug"
+      split="lib_slice_8_apk">
+</manifest>
